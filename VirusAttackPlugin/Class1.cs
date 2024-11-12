@@ -35,12 +35,6 @@ namespace VirusAttackPlugin
         /// Gets the plugin version.
         /// </summary>
         public override Version Version => new Version(1, 0, 0);
-
-        /// <summary>
-        /// Gets the required Exiled version.
-        /// </summary>
-        public override Version RequiredExiledVersion => new Version(5, 2, 0);
-
         /// <summary>
         /// Plugin loaded event.
         /// </summary>
